@@ -127,7 +127,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: rgb(246, 187, 129);
+    color: #4e3b30;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
