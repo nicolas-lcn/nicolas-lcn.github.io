@@ -574,6 +574,7 @@ footer {
 .project-image img{
     float: left;
     width:300px;
+    height:auto;
 }
 
 .project-info {
