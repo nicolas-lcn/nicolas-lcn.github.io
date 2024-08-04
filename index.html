@@ -50,8 +50,7 @@
         <div id="lead-content">
             <img src="images/cvphotoprop.jpg" style="border-radius: 50%; margin-bottom: 50px;" width="250" height="250">
             <h1>Nicolas Luciani</h1>
-            <h2>Étudiant Master 2 en informatique graphique</h2>
-            <!--<a href="docs/AdeleImparato-resume-2023-EN.pdf" class="btn-rounded-white">My Resume (EN)</a>-->
+            <h2>Diplômé Master 2 en informatique graphique</h2>
             <a href="docs/CV-052023.pdf" class="btn-rounded-white">Mon CV (FR)</a>
         </div>
         <!-- End #lead-content -->
@@ -75,7 +74,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Enchanté ! Je suis Nicolas Luciani, actuellement étudiant en Master 2 Informatique, parcours IMAGINE (Image, 3D, Jeux et IA) à l'Université de Montpellier, Occitanie, France. <br>
+                        Enchanté ! Je suis Nicolas Luciani, diplômé Master 2 Informatique, parcours IMAGINE (Image, 3D, Jeux et IA) à l'Université de Montpellier, Occitanie, France. <br>
 
                         Amoureux des jeux, et fasciné par la programmation 3D, j'ai l'occasion de travailler sur plusieurs projets passionnant durant mes études. 
                         Beaucoup de sujets piquent ma curiosité et me poussent à apprendre et créer.<br>
@@ -150,13 +149,28 @@
         <h2 class="heading">Expérience professionnelle</h2>
         <div class="container">
             <div id = "experience-timeline">
+            	<div class="vtimeline-content">
+                    <h3> Optimisation de maillages</h3>
+                    <br>
+                    <h4> Stage de fin d'études - EMERSYA </h4>
+                    <h5> Montpellier, Occitanie, France</h5>
+                    <div class="vtimeline-date">
+                        Janvier 2024 - Juillet 2024
+                    </div>
+                    <p>
+                        Emersya propose des services de solutions 3D, réalité augmentée (RA / AR), réalité virtuelle (RV / VR), pour du e-commerce.
+                        Lors de ce stage, j'ai développé des méthodes d'optimisation de maillage 3D triangulaires, sur la base d'une solide recherche académique et la formation d'un état de l'art des méthodes. <br>
+                        Décimation par contraction d'arête. Détection et correction d'artéfacts ou de problèmes visuels dans les modèles. 
+                    </p>
+                </div>
+
                 <div class="vtimeline-content">
                     <h3> Game Master</h3>
                     <br>
                     <h4> CDI - Mission Exit </h4>
                     <h5> Montpellier, Occitanie, France</h5>
                     <div class="vtimeline-date">
-                        septembre 2023 - aujourd'hui
+                        septembre 2023 - Novembre 2023
                     </div>
                     <p>
                         Accueil et briefing des joueurs. 
@@ -200,6 +214,23 @@
         <h2 class="heading">Projets</h2>
         <div class="container">
             <div class="row">
+
+            	<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/sms-ie-sphere.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Simulation d'objets non-rigide (2023)</h3>
+                        <p>
+                            C++ / OpenGL / Qt <br>
+                            Moteur physique de simulation d'objets non-rigide avec de systèmes masse-ressort. 
+                            Utilisation d'une intégration d'Euler implicite et de contraintes. 
+                        </p>
+                        <a href="https://github.com/nicolas-lcn/cloth-simulation">Git</a><br>
+                        <a href="https://docs.google.com/presentation/d/1H_Ai7J7kOgogNO08w1O0XsqPhlLu-FxFmBN8GmM1AgM/edit?usp=sharing"> Présentation du projet </a><br>
+                        <a href="https://github.com/nicolas-lcn/cloth-simulation/blob/main/docs/PROJET3D_LUCIANI.pdf"> Rapport de projet </a><br>
+                    </div>
+                </div>
 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -251,6 +282,21 @@
                 </div>
                 <div class="project shadow-large">
                     <div class="project-image">
+                        <img src="images/montpunk.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>MontPunk - Imagine Game Jam 2023-2024</h3>
+                        <p>
+                            Unreal Engine 5 <br>
+                            Jeu proposé à la Game Jam de 72h que ma promotion et moi avons organisé sur le thème "Remote Control". <br>
+                            Vous serez propulsé dans un monde post-apocalyptique où des mutants n'hésiteront pas à vous faire le peau. Vos sbires robotiques vous obéiront au doigt et à l'oeil pour venir à bout de vos ennemis. 
+
+                        </p>
+                        <a href="">Tester</a>
+                    </div>
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
                         <img src="images/slic0.png"/>
                     </div>
                     <div class="project-info">
@@ -282,19 +328,7 @@
                     </div>
                 </div>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/dungeon-crawler.png" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Dungeon Crawler (2021)</h3>
-                        <p>
-                            Java / JavaFX<br>
-                            Jeu Rogue-Lite développé en Java dans le cadre de l'enseignement Programmation et Conception en Licence 2.
-                        </p>
-                        <a href="https://github.com/nicolas-lcn/dungeon-crawler">Git</a>
-                    </div>
-                </div>
+                
                 
             </div>
         </div>
@@ -306,17 +340,18 @@
         <br>
         <h3 class="heading-other"> Hard skills</h3>
         <ul>
+
+        	<li>C/C++</li>
+        	<li>GLSL</li>
+        	<li>C#</li>
             <li>Java</li>
-            <li>C/C++</li>
             <li>Python</li>
-            <li>C#</li>
-            <li>GLSL</li>
             <li>SQL</li>
             <br/>
             <li>OpenGL</li>
             <li>Unity</li>
-            <li>Android Studio</li>
             <li>Blender</li>
+            <li>Android Studio</li>
             <li>Gimp</li>
         </ul>
         <br>
